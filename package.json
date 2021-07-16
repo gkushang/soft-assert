@@ -1,15 +1,24 @@
 {
-  "name": "@alfonso-presa/soft-assert-parent",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@alfonso-presa/soft-assert",
+  "version": "0.5.0",
+  "description": "> TODO: description",
+  "author": "Alfonso Presa <alfonso.presa@bbva.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/soft-assert.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "lerna run build",
-    "prepare": "npm run build",
+    "build": "tsc",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/jest": "^26.0.15",
