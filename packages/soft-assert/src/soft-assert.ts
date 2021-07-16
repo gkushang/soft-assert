@@ -10,7 +10,7 @@ function formatAssertionError(err) {
     } else {
       message = '';
     }
-    let stack = err.stack || message;
+    let stack = message || err.stack;
     let index = message ? stack.indexOf(message) : -1;
 
     if (index === -1) {
