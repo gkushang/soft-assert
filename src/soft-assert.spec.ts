@@ -1,4 +1,4 @@
-import { soft, flush, wrap, proxy } from "./soft-assert";
+import { soft, flush, wrap, proxy } from "../lib/soft-assert";
 import { expect as chaiExpect, assert as chaiAssert } from "chai";
 import assert from "assert";
 

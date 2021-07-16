@@ -5,7 +5,7 @@
   "author": "Alfonso Presa <alfonso.presa@bbva.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/soft-assert.ts",
+  "main": "lib/soft-assert.js",
   "directories": {
     "lib": "lib"
   },
@@ -16,7 +16,6 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc",
     "test": "jest"
   },
   "devDependencies": {
